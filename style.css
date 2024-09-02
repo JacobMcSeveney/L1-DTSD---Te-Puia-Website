@@ -1,0 +1,180 @@
+@font-face {
+    font-family: "Customfont";
+    src: url(./fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+* {
+  font-family: "Customfont", sans-serif;
+  text-align: center;
+}
+
+.logo{
+    width: 10%;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)), url("./Te Puia Resources/HERO-Pohutu-at-sunset.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50%;
+    margin: 0px;
+}
+
+.experiences-hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)), url("./Te Puia Resources/20240626_104441.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50%;
+    margin: 0px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+body, html {
+  height: 100%;
+  margin: 0px;
+}
+
+.topnav {
+    background-color: #979797;
+    overflow: hidden;
+    border: 0px;
+    margin: 0px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav b {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ff9898;
+    color: rgb(68, 68, 68);
+    text-decoration: underline;
+  }
+  
+  .topnav a.active {
+    background-color: #ff7e7e;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+ .topnavimg {
+    width: 6%;
+    height: 10px;
+    position: relative;
+    top: -23px;
+ }
+
+ .two-column{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.info{
+  font-size: 1em;
+  position: relative;
+  text-align: center;
+}
+
+.footer{
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  background-color: #ff8c8c;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {background: #eee;}
+
+.experiences {color: rgb(0, 0, 0);}
+
+.coverimg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)), url("./Te Puia Resources/20240626_104344.jpg");
+    height: 500px;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50%;
+    margin: 0px;
+    background-position-y: center;
+}
+
+.two-column2{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 60px;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.two-column3{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 50px;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+p {
+  padding: 15px;
+}
+
+.three-column{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.card {
+  
+}
