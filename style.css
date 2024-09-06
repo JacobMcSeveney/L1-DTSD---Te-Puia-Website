@@ -8,15 +8,15 @@
   text-align: center;
 }
 
-.logo{
-    width: 10%;
-    position: relative;
+.underlined {
+  text-decoration: underline;
 }
 
 img{
     width: 100%;
     border-radius: 5px;
     margin: 0px;
+    position: relative;
 }
 
 .hero-image {
@@ -41,7 +41,7 @@ img{
     margin: 0px;
 }
 
-.gallery-hero-image{
+.restaurant-hero-image{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),
   rgba(0, 0, 0, 0.5)), url("./Te Puia Resources/PatakaKai.jpg");
     background-position: center;
@@ -52,6 +52,16 @@ img{
     margin: 0px;
 }
 
+.gallery-hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)), url("./Te Puia Resources/20240626_101647.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50%;
+    margin: 0px;
+}
 
 .hero-text {
   text-align: center;
@@ -72,6 +82,10 @@ body, html {
     overflow: hidden;
     border: 0px;
     margin: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index:999;
   }
   
   .topnav a {
@@ -104,10 +118,10 @@ body, html {
     text-decoration: underline;
   }
  .topnavimg {
-    width: 6%;
+    width: 8%;
     height: 10px;
     position: relative;
-    top: -23px;
+    top: -20px;
  }
 
  .two-column{
@@ -132,14 +146,14 @@ body, html {
 
 .btn {
   border: none;
-  background-color: #ff8c8c;
+  background-color: #ff7878;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
   display: inline-block;
 }
 
-.btn:hover {background: #eee;}
+.btn:hover {background: #ff8c8c;}
 
 .experiences {color: rgb(0, 0, 0);}
 
@@ -197,4 +211,41 @@ hr {
 
 .round-img {
   border-radius: 50%;
+}
+
+.coverimg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* store gallery code from w3 schools */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 15px;
+  float: left;
+  width: 24.99999%;
 }
